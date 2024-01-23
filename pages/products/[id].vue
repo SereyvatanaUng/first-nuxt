@@ -10,5 +10,6 @@
 
 <script setup>
 const { id } = useRoute().params;
-console.log(id);
+
+definePageMeta({ layout: "products" });
 </script>
