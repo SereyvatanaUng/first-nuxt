@@ -1,4 +1,15 @@
 <template>
+  <header>
+    <nav>
+      <NuxtLink to="/">Nuxt App</NuxtLink>
+      <ul>
+        <li><NuxtLink to="/">Home</NuxtLink></li>
+        <li><NuxtLink to="/about">About</NuxtLink></li>
+        <li><NuxtLink to="/products">Products</NuxtLink></li>
+      </ul>
+    </nav>
+  </header>
+
   <div>
     <h2>Home</h2>
     <p>
