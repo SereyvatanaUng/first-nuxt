@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Head
-      ><Title>App Nuxt | {{ product.title }}</Title>
+    <Head>
+      <Title>App Nuxt | {{ product.title }}</Title>
       <Meta name="description" :content="product.description"></Meta>
     </Head>
 
